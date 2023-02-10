@@ -1,0 +1,48 @@
+int n = s.length();
+            char * s1 = new char[n+1];
+            strcpy(s1,s.c_str());
+            printf("%s\n",s1);
+
+if(inpfile.fail()){
+        printf("Your File didn't work\n");
+    }
+
+
+
+
+
+int hash_val = Hash_func(s);
+        SymbolInfo * temp = hashtable[hash_val];
+        printf("HERE IS THE ERROR!!!!");
+        int count = 0;
+        if(temp==NULL){
+            printf("%s not found\n",s);
+        }
+        else if(strcmp(temp->symbol,s)==0){
+            hashtable[hash_val]=hashtable[hash_val]->next;
+            delete temp;
+            printf("Deleted from (%d,%d)\n",hash_val,count);
+        }
+        else{
+            while(temp!=NULL)
+            {
+                if(strcmp(temp->next->symbol,s)==0)
+                {
+                    SymbolInfo * temp3 = temp->next;
+                    temp->next = temp->next->next;
+                    delete temp3;
+                    count++;
+                }
+                temp = temp ->next;
+            }
+                printf("Deleted from (%d,%d)\n",hash_val,count);
+            }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,246 @@
+<KEYWORD, int>	 Line num = 1
+<KEYWORD, main>	 Line num = 1
+<PAREN, (>	 Line num = 1
+<PAREN, )>	 Line num = 1
+
+
+
+<CURLY, {>	 Line num = 2
+
+
+
+<KEYWORD, int>	 Line num = 3
+<ID, choice>	 Line num = 3
+<COMMA, ,>	 Line num = 3
+<ID, i>	 Line num = 3
+<COMMA, ,>	 Line num = 3
+<ID, j>	 Line num = 3
+<COMMA, ,>	 Line num = 3
+<ID, a>	 Line num = 3
+<ASop, =>	 Line num = 3
+<NUMBER, 5>	 Line num = 3
+<COMMA, ,>	 Line num = 3
+<ID, b>	 Line num = 3
+<ASop, =>	 Line num = 3
+<NUMBER, 10>	 Line num = 3
+<COMMA, ,>	 Line num = 3
+<ID, c>	 Line num = 3
+<ASop, =>	 Line num = 3
+<NUMBER, 1>	 Line num = 3
+<COMMA, ,>	 Line num = 3
+<ID, d>	 Line num = 3
+<ASop, =>	 Line num = 3
+<NUMBER, 2>	 Line num = 3
+<COMMA, ,>	 Line num = 3
+<ID, _oddsum>	 Line num = 3
+<ASop, =>	 Line num = 3
+<NUMBER, 0>	 Line num = 3
+<COMMA, ,>	 Line num = 3
+<ID, _evensum>	 Line num = 3
+<ASop, =>	 Line num = 3
+<NUMBER, 0>	 Line num = 3
+<SEMICOLON, ;>	 Line num = 3
+
+
+
+<KEYWORD, float>	 Line num = 4
+<ID, num1>	 Line num = 4
+<ASop, =>	 Line num = 4
+<NUMBER, 3.14>	 Line num = 4
+<SEMICOLON, ;>	 Line num = 4
+
+
+
+<KEYWORD, double>	 Line num = 5
+<ID, num2>	 Line num = 5
+<ASop, =>	 Line num = 5
+<NUMBER, 3.15E-2>	 Line num = 5
+<SEMICOLON, ;>	 Line num = 5
+
+
+
+<KEYWORD, switch>	 Line num = 6
+<PAREN, (>	 Line num = 6
+<ID, choice>	 Line num = 6
+<PAREN, )>	 Line num = 6
+
+
+
+<CURLY, {>	 Line num = 7
+
+
+
+<KEYWORD, case>	 Line num = 8
+<NUMBER, 1>	 Line num = 8
+:
+
+
+<KEYWORD, int>	 Line num = 9
+<ID, res>	 Line num = 9
+<SEMICOLON, ;>	 Line num = 9
+
+
+
+<ID, res>	 Line num = 10
+<ASop, =>	 Line num = 10
+<PAREN, (>	 Line num = 10
+<ID, a>	 Line num = 10
+<ARop, +>	 Line num = 10
+<ID, b>	 Line num = 10
+<ARop, ->	 Line num = 10
+<ID, c>	 Line num = 10
+<PAREN, )>	 Line num = 10
+<ARop, *>	 Line num = 10
+<PAREN, (>	 Line num = 10
+<ID, d>	 Line num = 10
+<ARop, />	 Line num = 10
+<NUMBER, 2>	 Line num = 10
+<PAREN, )>	 Line num = 10
+<SEMICOLON, ;>	 Line num = 10
+
+
+
+<KEYWORD, break>	 Line num = 11
+<SEMICOLON, ;>	 Line num = 11
+
+
+
+<KEYWORD, case>	 Line num = 12
+<NUMBER, 2>	 Line num = 12
+:
+
+
+<KEYWORD, for>	 Line num = 13
+<PAREN, (>	 Line num = 13
+<ID, i>	 Line num = 13
+<ASop, =>	 Line num = 13
+<NUMBER, 1>	 Line num = 13
+<SEMICOLON, ;>	 Line num = 13
+<ID, i>	 Line num = 13
+<Relop, <=>	 Line num = 13
+<NUMBER, 100>	 Line num = 13
+<SEMICOLON, ;>	 Line num = 13
+<ID, i>	 Line num = 13
+<INCop, ++>	 Line num = 13
+<PAREN, )>	 Line num = 13
+
+
+
+<CURLY, {>	 Line num = 14
+
+
+
+<KEYWORD, if>	 Line num = 15
+<PAREN, (>	 Line num = 15
+<ID, i>	 Line num = 15
+<ARop, %>	 Line num = 15
+<NUMBER, 2>	 Line num = 15
+<Relop, !=>	 Line num = 15
+<NUMBER, 0>	 Line num = 15
+<PAREN, )>	 Line num = 15
+
+
+
+<ID, _oddsum>	 Line num = 16
+<ASop, =>	 Line num = 16
+<ID, _oddsum>	 Line num = 16
+<ARop, +>	 Line num = 16
+<ID, i>	 Line num = 16
+<SEMICOLON, ;>	 Line num = 16
+
+
+
+<KEYWORD, else if>	 Line num = 17
+<PAREN, (>	 Line num = 17
+<ID, i>	 Line num = 17
+<ARop, %>	 Line num = 17
+<NUMBER, 2>	 Line num = 17
+<Relop, ==>	 Line num = 17
+<NUMBER, 0>	 Line num = 17
+<PAREN, )>	 Line num = 17
+
+
+
+<ID, _evensum>	 Line num = 18
+<ASop, =>	 Line num = 18
+<ID, _evensum>	 Line num = 18
+<ARop, +>	 Line num = 18
+<ID, i>	 Line num = 18
+<SEMICOLON, ;>	 Line num = 18
+
+
+
+<CURLY, }>	 Line num = 19
+
+
+
+<KEYWORD, break>	 Line num = 20
+<SEMICOLON, ;>	 Line num = 20
+
+
+
+<KEYWORD, case>	 Line num = 21
+<NUMBER, 3>	 Line num = 21
+:
+
+
+<ID, j>	 Line num = 22
+<ASop, =>	 Line num = 22
+<NUMBER, 10>	 Line num = 22
+<SEMICOLON, ;>	 Line num = 22
+
+
+
+<KEYWORD, while>	 Line num = 23
+<PAREN, (>	 Line num = 23
+<ID, j>	 Line num = 23
+<Relop, >=>	 Line num = 23
+<NUMBER, 1>	 Line num = 23
+<Lop, &&>	 Line num = 23
+<ID, j>	 Line num = 23
+<Relop, <=>	 Line num = 23
+<NUMBER, 10>	 Line num = 23
+<PAREN, )>	 Line num = 23
+
+
+
+<CURLY, {>	 Line num = 24
+
+
+
+<ID, j>	 Line num = 25
+<DECop, -->	 Line num = 25
+<SEMICOLON, ;>	 Line num = 25
+
+
+
+<CURLY, }>	 Line num = 26
+
+
+
+<KEYWORD, break>	 Line num = 27
+<SEMICOLON, ;>	 Line num = 27
+
+
+
+<KEYWORD, default>	 Line num = 28
+:
+
+
+<ID, prinf>	 Line num = 29
+<PAREN, (>	 Line num = 29
+<LITERAL, "Wrong Input">	 Line num = 29
+<PAREN, )>	 Line num = 29
+<SEMICOLON, ;>	 Line num = 29
+
+
+
+<CURLY, }>	 Line num = 30
+
+
+
+<CURLY, }>	 Line num = 31
+
+
+
+Total word count 34 

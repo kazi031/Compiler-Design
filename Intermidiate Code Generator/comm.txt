@@ -1,0 +1,3 @@
+flex threeAdd.l
+bison -d threeAdd.y
+gcc lex.yy.c threeAdd.tab.c -o threeAdd.exe

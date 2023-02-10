@@ -1,0 +1,56 @@
+<void , Keyword> inserted at position (18,0)
+<prime , Function> inserted at position (88,0)
+<int , Keyword> inserted at position (97,0)
+<n , Identifier> inserted at position (97,1)
+<int , Keyword> already exists
+<count , Identifier> inserted at position (49,0)
+<i , Identifier> inserted at position (88,1)
+<= , Operator> inserted at position (29,0)
+<c , Identifier> inserted at position (57,0)
+<for , Keyword> inserted at position (18,1)
+<count , Identifier> already exists
+<= , Operator> already exists
+<count , Identifier> already exists
+<<= , Operator> inserted at position (7,0)
+<n , Identifier> already exists
+<for , Keyword> already exists
+<c , Identifier> already exists
+<= , Operator> already exists
+<c , Identifier> already exists
+<<= , Operator> already exists
+<i , Identifier> already exists
+<- , Operator> inserted at position (81,0)
+<c , Identifier> already exists
+<++ , Operator> inserted at position (37,0)
+<if , Keyword> inserted at position (88,1)
+<i , Identifier> already exists
+<% , Operator> inserted at position (6,0)
+<c , Identifier> already exists
+<== , Operator> inserted at position (29,1)
+<break , Keyword> inserted at position (0,0)
+<if , Keyword> already exists
+<c , Identifier> already exists
+<== , Operator> already exists
+<i , Identifier> already exists
+<printf , Function> inserted at position (88,2)
+<i , Identifier> already exists
+<count , Identifier> already exists
+<++ , Operator> already exists
+<i , Identifier> already exists
+<++ , Operator> already exists
+<int , Keyword> already exists
+<main , Function> inserted at position (13,0)
+<int , Keyword> already exists
+<n , Identifier> already exists
+<printf , Function> already exists
+<scanf , Function> inserted at position (13,1)
+<n , Identifier> already exists
+<if , Keyword> already exists
+<n , Identifier> already exists
+<>= , Operator> inserted at position (51,0)
+<printf , Function> already exists
+<n , Identifier> already exists
+<printf , Function> already exists
+<prime , Function> already exists
+<n , Identifier> already exists
+<return , Keyword> inserted at position (27,0)
